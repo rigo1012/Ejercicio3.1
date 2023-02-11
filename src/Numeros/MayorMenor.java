@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class MayorMenor {
     public  static void main (String[] args){
         Scanner abc=new Scanner(System.in);
-        int num, nume, numero;
+        float num, nume, numero;
         System.out.println("NUMEROS ORDENADOS");
         System.out.println("Ingrese tres numeros");
-        num= abc.nextInt();
-        nume= abc.nextInt();
-        numero=abc.nextInt();
+        num= abc.nextFloat();
+        nume= abc.nextFloat();
+        numero=abc.nextFloat();
 
         if(num>nume){
             if(num>numero){
