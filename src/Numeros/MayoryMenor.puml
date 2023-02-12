@@ -1,0 +1,9 @@
+@startuml
+class MayoryMenor{
+Float num1
+Float num2
+Float num2
+}
+
+
+@enduml
